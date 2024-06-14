@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Store.Book>
+
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Id</td>
+                <td>@book.Title</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Books", new { id = book.Id })">Edit</a> |
+                    <a href="@Url.Action("Details", "Books", new { id = book.Id })">Details</a> |
+                    <a href="@Url.Action("Delete", "Books", new { id = book.Id })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
