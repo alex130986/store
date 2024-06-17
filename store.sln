@@ -15,11 +15,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Web", "presentation\Store.Web\Store.Web.csproj", "{AAA8703F-47C2-4465-946C-3C9146AA76AC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{06D609C3-0D6E-4B2F-AEF6-7BF125A015B8}"
-	ProjectSection(SolutionItems) = preProject
-		ErrorViewModel.cs = ErrorViewModel.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,7 +41,6 @@ Global
 		{F415E867-8B42-41E8-A35C-797B246B53B1} = {C669F5A9-D82B-4FB8-A6C5-DF66BB43826F}
 		{B7B61918-45C6-459B-B754-564D4570F58C} = {D34C0405-16C2-4E5D-A377-EC65C1094B7B}
 		{AAA8703F-47C2-4465-946C-3C9146AA76AC} = {38C346FF-42E1-4FAF-A8EC-F6AA1DDBF165}
-		{06D609C3-0D6E-4B2F-AEF6-7BF125A015B8} = {38C346FF-42E1-4FAF-A8EC-F6AA1DDBF165}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2F5FA07-5A85-4E8C-8644-7200230AA0F8}
